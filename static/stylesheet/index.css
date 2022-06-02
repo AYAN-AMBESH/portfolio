@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #02101d;
+}
+::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64ffda;
+}
+
+::-moz-selection {
+  color: #64ffda;
+  background: #eeeeee;
+}
+
+::selection {
+  color: #64ffda;
+  background: #eeeeee;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.main {
+  height: 99vh;
+  background-color: black;
+  color: lawngreen;
+  font-family: "VT323", monospace;
+  border-color: lawngreen;
+  border-width: 0.25em;
+  border-style: double;
+  padding: 2%;
+  
+}
+
+.main pre{
+  font-family: "VT323", monospace;
+  font-size: 20px;
+}
+
+.input {
+  background-color: black;
+  color: lawngreen;
+}
+
+.command{
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  border: none;
+  box-shadow: none;
+  width: 97%;
+  background-color: black;
+  color: lawngreen;
+}
+
+.command:focus{
+  outline: none;
+}
