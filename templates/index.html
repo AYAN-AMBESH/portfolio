@@ -8,9 +8,9 @@
     />
   </head>
 <body>
-    <div class="main" id="main">
-        <div class="output" id="output">
-            <pre>
+  <div class="main" id="main">
+    <div class="output" id="output">
+      <pre>
 Ambash(build 1.0) initializing...done
 starting OS...
 ---------
@@ -18,12 +18,13 @@ Sinister Draco's homepage
 Try poking around the filesystem!
 For help, run "help"
 ---------</pre>
-        </div>
-
-        <div class="input" id="input">
-            <pre>$ <input class="command" id="command" name="command" type="text"/></pre>
-        </div>
     </div>
-    <script src="{{url_for('static',filename='javascript/index.js')}}"></script>
+
+    <div class="input" id="input">
+      <pre>$ <input class="command" id="command" name="command" type="text"/></pre>
+    </div>
+  </div>
+  <script src="../static/javascript/index.js"></script>
 </body>
+
 </html>
