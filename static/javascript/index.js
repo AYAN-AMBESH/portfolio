@@ -4,7 +4,7 @@ const sandbox = {
   env: {
     bin: ["cat", "ls", "pwd", "cd", "write", "clear"],
     home: {
-      "about_me.txt": "My name is Ayan Ambesh and im known as Sinister Draco\nlink: <a href='https://docs.google.com/document/d/17lx0UkPNQMVmlsSWXTGABHcNJfEm0BlKdne0JzzZ2ZU/edit?usp=sharing'>Resume</a>",
+      "about_me.txt": "My name is Ayan Ambesh and im known as Sinister Draco\nlink: <a target='_blank' href='https://docs.google.com/document/d/17lx0UkPNQMVmlsSWXTGABHcNJfEm0BlKdne0JzzZ2ZU/edit?usp=sharing'>Resume</a>",
       "status.txt": "I am a student studying computer science",
       "contact_me.txt": "You can contact me at ambesh@12k.com",
     },
