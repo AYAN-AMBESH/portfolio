@@ -4,23 +4,23 @@ const sandbox = {
   env: {
     bin: ["cat", "ls", "pwd", "cd", "write", "clear"],
     home: {
-      "about_me.txt": "My name is Ayan Ambesh and im known as Sinister Draco\nlink: <a target='_blank' href='https://docs.google.com/document/d/17lx0UkPNQMVmlsSWXTGABHcNJfEm0BlKdne0JzzZ2ZU/edit?usp=sharing'>Resume</a>",
+      "about_me.txt": "My name is Ayan Ambesh and im known as Sinister Draco\nlink: <a target='_blank' href='https://drive.google.com/file/d/1CqLUGXbL2wkt7uSeqlgILZjHfasGtoJx/view?usp=share_link'>Resume</a>",
       "status.txt": "I am a student studying computer science",
-      "contact_me.txt": "You can contact me at ambesh@12k.com",
+      "contact_me.txt": "You can contact me at ambesh12k@gmail.com",
     },
-    
+
   },
   command: ["cat", "ls", "pwd", "cd", "write", "clear", "help"],
 };
 
-function pwd(){
+function pwd() {
   return [`env/${CWD}`]
 }
 
 function ls() {
   var out = [];
   if (CWD == "home") {
-   out = Object.keys(sandbox.env.home);
+    out = Object.keys(sandbox.env.home);
   } else if (CWD == "bin") {
     out = sandbox.env.bin;
   }
@@ -36,17 +36,17 @@ function help() {
     "Write :writes to a file",
     "clear : Clears the screen"
   ]
-    return help;
+  return help;
 }
 
-function clear(){
-    var e = document.getElementById("output");
-    var child = e.lastElementChild; 
-    while (child) {
-        e.removeChild(child);
-        child = e.lastElementChild;
-    }
-    return []
+function clear() {
+  var e = document.getElementById("output");
+  var child = e.lastElementChild;
+  while (child) {
+    e.removeChild(child);
+    child = e.lastElementChild;
+  }
+  return []
 }
 
 function cat(input) {
@@ -110,6 +110,6 @@ el.addEventListener("keydown", function (event) {
   }
 });
 
-document.getElementById('command').addEventListener('blur', function() {
-  this.value.length > 3 || this.focus(); 
+document.getElementById('command').addEventListener('blur', function () {
+  this.value.length > 3 || this.focus();
 });
