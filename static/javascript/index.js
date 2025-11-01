@@ -25,7 +25,7 @@ const sandbox = {
 };
 
 function pwd() {
-  return [`env/${CWD}`]
+  return [`/${CWD}`]
 }
 
 function cat(input) {
