@@ -13,8 +13,8 @@ const sandbox = {
     home: {
       ambesh: {
         "about_me.txt": "My name is Ayan Ambesh and im known by many names, Haven(current username)\nlink: <a target='_blank' href=''>Resume</a>",
-        "status.txt": "I am a student studying computer science",
-        "contact_me.txt": "not rn im busy",
+        "status.txt": "I am a student studying Digital Forensics and Information Security at NFSU Delhi. \nI love multiplayer games and coding. \nI also play CTFs in my free time.",
+        "contact_me.txt": "not rn im busy, jk check /etc/contact.txt for further details",
       }
     },
     etc:{
